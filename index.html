@@ -3,12 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Convert between kg and lbs</title>
-		<script src="js/unitconv.js"></script>
+    <script src="js/unitconv.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
   </head>
   <body>
-	<form onsubmit="return convertTextareas()" action="">
-		<textarea></textarea>
-		<input type="submit" />
-	</form>
+    <div id="wrapper">
+      <h1>Imperial/metric conversion</h1>
+      <form onsubmit="return convertTextareas()" action="">
+        <div class="field-container">
+          <textarea></textarea>
+          <br/>
+          <input value="annotate" type="submit" />
+        </div>
+      </form>
+    </div>
   </body>
 </html>

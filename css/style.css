@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+
+#wrapper {
+  width: 940px;
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100%;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+body, input, textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input, textarea {
+  background: #eee;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+}
+
+.field-container {
+  text-align: right;
+  display: inline-block;
+}
+
+h1 {
+  margin-top: 0;
+}
