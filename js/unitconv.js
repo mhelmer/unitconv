@@ -3,7 +3,7 @@ function convertTextareas() {
 		console.log(textareas.length);
     for (var i = 0; i < textareas.length; i++) {
         textareas[i].value = textareas[i].value.replace(
-            /\d+\.?\d+\s+(kg|lbs?)(?! \(\d+\.?\d+\s+(?:kg|lbs?)\))/g,
+            /\d+\.?\d+\s+(kg|lbs?)(?!s? \(\d+\.?\d+\s+(?:kg|lbs?)\))/g,
             function (match, capture) {
                 if(capture == 'kg') {
                     factor = 2.20462;
